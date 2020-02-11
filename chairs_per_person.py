@@ -1,4 +1,4 @@
-f = open("reservations.csv")
+f = open("reservations ")
 
 for reservation in f:
     name, number = reservation.split(",")
